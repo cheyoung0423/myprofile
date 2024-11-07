@@ -1,0 +1,21 @@
+
+.forms{
+    text-align:center;
+  
+    height:500px;
+  
+}
+.form-items{
+    background-color:aliceblue;
+    width:500px;
+    height:500px;
+    
+    margin-top:30px;
+}
+.form-wrapper{
+    display:flex;
+    justify-content: center;
+}
+.form-item{
+    margin:10px 0;
+}

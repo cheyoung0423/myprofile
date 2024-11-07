@@ -1,0 +1,234 @@
+@media(max-width: 1467px ){
+    /*スマートフォン*/
+   
+    
+  
+       
+        .thank {
+          width:100%;
+          margin:0 5px;
+          font-size:20px;
+        }
+        .fa-bars{
+        
+        
+         float:right;
+        }
+        .fa-x {
+            margin-left: 5px; 
+            margin-top: -10px;
+            
+        }
+    
+    
+      body{
+        width:100%;
+       
+        margin:0 20px;
+        
+      }
+      .lesson,h1,h2{
+       
+       text-align:center;
+      }
+      .lesson span{
+        font-size:40px;
+        margin:0 15px;
+       
+      }
+   
+   main{
+    position:absolute;
+top:20;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+  
+   }
+    .main0{
+height:200px;
+   }
+ .oy h1{
+margin-top:80px;
+ }
+ 
+ 
+   .lists li:first-child{
+    position:absolute;
+    top:1520px;
+    left:20px;
+  
+   }
+   .lists li:nth-child(2){
+    position:absolute;
+    top:1920px;
+    left:20px;
+  
+   }
+   .lists li:nth-child(3){
+    position:absolute;
+    top:2310px;
+    left:20px;
+  
+   }
+   #hobbys{
+    padding-top:60px;
+    display:flex;
+    justify-content: center;
+  
+   }
+   #hobbys p{
+    width:70%;
+    margin-left:10px;
+   }
+ 
+ 
+   
+   .work-item{
+    width:100%;
+    text-align:center;
+    display:inline-block;
+   }
+   .work-item img{
+    width:90%;
+   }
+form{
+  display:flex;
+  justify-content: center;
+  width:90%;
+}
+.taki{
+ width:100%;
+ z-index:-1;
+ height:100%;
+ top:0;
+ left:0;
+ position:fixed;
+}
+.language{
+ display:flex;
+flex-direction: column;
+}
+
+.icon{
+  display:flex;
+justify-content: center;
+ 
+ 
+ }
+ .fa-bars{
+  cursor:pointer;
+   position:fixed;
+    top:30px;
+    right:50px;
+    z-index:2;
+  color:white;}
+  .fa-x{
+    cursor:pointer;
+    position:fixed;
+     top:40px;
+     right:50px;
+     z-index:2;
+   color:white;
+  }
+  .tab{
+    display:none;
+    background-color:rgba(0, 0, 0, 0.893);
+    z-index:3;
+    position:fixed;
+right:0px;
+top:-60px;
+    height:100%;
+    width:100%;
+    
+ 
+padding-top:380px;
+margin-top:-150px;
+transition-duration: 0.3s;
+
+text-align:center;
+  }
+  .tab li{
+    margin:8px 0;
+    font-size:50px;
+ 
+    
+   
+}
+  .open {
+    display:flex;
+    flex-direction: column; 
+    
+    
+    
+    }
+     .scrollDown{
+    position: absolute;
+    bottom: 80px;
+    right: 50%;
+    animation: scrollDown 1s ease-in-out infinite;
+   
+  }
+  .scrollDown1{
+    position: absolute;
+    bottom: 80px;
+    right: 50%;
+    animation: scrollDown 1s ease-in-out infinite;
+  }
+  @keyframes scrollDown{
+    0% {bottom: 10%}
+    50% {bottom: 15%}
+    100% {bottom: 10%}
+  }
+  .scrollDown span{
+    position: absolute;
+    left: -14px;
+    bottom: 480px;
+    font-size:20px;
+    letter-spacing: 0.05em;
+  
+    color:white;
+  }
+  .scrollDown::before{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 20px;
+    background-color: white;
+    bottom: 400px;
+    right: -25px;
+    transform: skew(-30deg);
+    
+  }
+  
+  .scrollDown::after{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 60px;
+    background-color: white;
+    bottom: 400px;
+    right: -18px;
+  }
+  .scrollDown1::before{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 20px;
+    background-color:white;
+    bottom: 400px;
+    right: -13px;
+    transform: skew(30deg);
+    
+  }
+  
+  .scrollDown1::after{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 60px;
+    background-color: white;
+    bottom: 400px;
+    right: -18px;
+  }
+
+  
+    }

@@ -1,0 +1,475 @@
+@media(min-width: 1467px){ 
+body{
+    font-family: "Playfair Display", serif;
+    width:100%;
+}
+header{
+    width:100%;
+}
+h1{
+    text-align:center;
+}
+
+.main0{
+    z-index:1;
+
+
+    height:100vh;
+    width:100%;
+   
+}
+main{
+   
+   
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+
+}
+.main1{
+    z-index:1;
+    
+    margin-left:-8px;
+    margin-right:-10px;
+    margin-bottom:-50px;
+    height:1200px;
+  
+    position:relative;
+  
+
+}
+
+
+  .scrollDown{
+    position: absolute;
+    bottom: 80px;
+    right: 50%;
+    animation: scrollDown 1s ease-in-out infinite;
+  }
+  .scrollDown1{
+    position: absolute;
+    bottom: 80px;
+    right: 50%;
+    animation: scrollDown 1s ease-in-out infinite;
+  }
+  @keyframes scrollDown{
+    0% {bottom: 10%}
+    50% {bottom: 15%}
+    100% {bottom: 10%}
+  }
+  .scrollDown span{
+    position: absolute;
+    left: -25px;
+    bottom: 60px;
+    font-size:20px;
+    letter-spacing: 0.05em;
+ 
+    color:white;
+  }
+  .scrollDown::before{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 20px;
+    background-color: white;
+    bottom: 0;
+    right: -6px;
+    transform: skew(-30deg);
+    
+  }
+  
+  .scrollDown::after{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 60px;
+    background-color: white;
+    bottom: 0;
+    right: 0;
+  }
+  .scrollDown1::before{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 20px;
+    background-color:white;
+    bottom: 0;
+    right: 6px;
+    transform: skew(30deg);
+    
+  }
+  
+  .scrollDown1::after{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 60px;
+    background-color: white;
+    bottom: 0;
+    right: 0;
+  }
+
+
+
+.taki{
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    z-index:-1;
+    position:fixed;
+}
+.main2{
+ 
+margin-left:-8px;
+margin-right:-10px;
+margin-bottom:-50px;
+  height:1200px;
+}
+
+#about{
+font-size:30px;
+text-align:center;
+opacity:0;
+z-index:0;
+transition:opacity 1.5s ease;
+}
+#work{
+    font-size:30px;
+    opacity:0;
+    z-index:0;
+    transition:opacity 1.5s ease;
+ 
+ 
+}
+#contact{
+    font-size:30px; 
+ text-align:center;
+ opacity:0;
+ z-index:0;
+ transition:opacity 1.5s ease;
+}
+
+
+
+
+
+span{
+    color:rgb(91, 50, 188);
+    font-size:40px;
+}
+
+.fa-bars,.fa-x{
+    cursor:pointer;
+   position:fixed;
+    top:30px;
+    right:80px;
+    z-index:2;
+}
+.tab{
+    display:none;
+    background-color:rgba(0, 0, 0, 0.893);
+    z-index:3;
+    position:fixed;
+right:0px;
+top:-80px;
+    height:100%;
+    width:100%;
+    
+ 
+padding-top:380px;
+margin-top:-150px;
+transition-duration: 0.3s;
+
+text-align:center;
+
+
+
+   
+}
+.tab li{
+    margin:10px 0;
+    font-size:70px;
+ 
+    
+   
+}
+
+.tab a:hover{
+    color:rgba(255, 255, 255, 0.495);
+}
+.open {
+display:flex;
+flex-direction: column; 
+
+
+
+}
+.close{
+    display:none;
+}
+
+input{
+    border-radius:8px;
+ width:300px;
+ height:30px;
+
+}
+textarea{
+    border-radius:8px;
+}
+.text{
+    border-radius:8px;
+    float:right;
+   
+    margin-top:-180px;
+}
+
+.sub input{
+
+
+
+    width:100px;
+    font-size:20px;
+    font-weight:bold;
+    
+    position:absolute;
+    top:280px;
+    left:300px;
+
+}
+.sub input:hover{
+    background-color:rgba(255, 255, 255, 0.3)
+}
+
+#for{
+   
+  height:200px;
+ 
+    
+    display:flex;
+    justify-content: center;
+ 
+}
+
+
+.mail{
+    width:320px;
+}
+.name{
+    width:320px;
+}
+.bottom{
+width:650px;
+height:300px;
+
+padding:20px 10px;
+position:relative;
+}
+.bottom input{
+    margin:13px 0;
+}
+.main0{
+    display:flex;
+    justify-content: center;
+    padding-top:200px;
+ 
+}
+
+.oy{
+  text-align:center;
+    
+    font-size:50px;
+}
+
+
+.learn{
+    
+ 
+    padding-top:80px;
+    opacity:0;
+    z-index:0;
+    transition:opacity 1.5s ease;
+}
+.learn span{
+    color:white;
+    font-size:100px;
+    
+  
+    
+}
+.learn2{
+    opacity:0;
+    z-index:0;
+    transition:opacity 1.5s ease;
+}
+.learn2 h2{
+    text-align:center;
+}
+.learn2 span{
+    color:white;
+    font-size:100px;
+    
+}
+.icon{
+    display:flex;
+    justify-content: center;
+  
+   
+   
+    
+}
+
+.learn h2{
+    position:absolute;
+    top:580px;
+    left:670px;
+    font-size:30px;
+}
+
+
+
+.lesson{
+  text-align:center;
+    padding:0 60px;
+   
+  
+   
+   
+}
+.lesson p{
+    font-size:30px;
+    margin-top:10px;
+}
+/*趣味hobby*/
+#hobbys{
+   position: absolute;
+    left:230px;
+    top:-80px;
+    
+    width:1100px;
+    
+  
+    
+   
+}
+
+.tree img{
+    
+    border-radius:30%;
+    float:left;
+    margin-right:30px;
+}
+.wrapper3 img{
+    margin-left:180px;
+    
+}
+
+.hobby-about {
+ padding-left:30px;
+ 
+
+}
+
+/*ツリー表*/
+.tree{
+    opacity:0;
+    z-index:0;
+    transition:opacity 1.5s ease;
+}
+.wrapper1 ul{
+   position:absolute;
+   top:2580px;
+   left:-20px;
+   list-style: none;
+}
+.wrapper1 li{
+    margin:130px 0;
+    font-size:30px;
+    font-weight:bold;
+}
+
+
+.vertical1{
+    margin-top:100px;
+    position:relative;
+    width:100%;
+    height:3px;
+    background-color:white;
+}
+.horizontal1{
+    position:absolute;
+    left:200px;
+    width:3px;
+    height:200px;
+    background-color:white;
+}
+.vertical2{
+    position:relative;
+  top:200px;
+  left:200px;
+    width:200px;
+    height:3px;
+    background-color:white;
+    float:left;
+}
+.horizontal2{
+    position:absolute;
+    left:200px;
+    width:3px;
+    height:400px;
+    background-color:white;
+}
+.vertical3{
+    position:relative;
+    top:400px;
+    left:200px;
+    width:400px;
+    height:3px;
+    background-color:white;
+    
+}
+.horizontal3{
+    position:relative;
+    top:400px;
+    left:200px;
+    width:3px;
+    height:200px;
+    background-color:white;
+}
+.vertical4{
+    position:relative;
+    top:400px;
+    left:200px;
+    width:200px;
+    height:3px;
+    background-color:white;
+}
+
+.thank{
+
+ justify-content:center;
+display:flex;
+opacity:0;
+z-index:0;
+transition:opacity 1.5s ease;
+
+}
+   
+.thank p{
+    text-align:center;
+    width:1100px;
+    font-size:30px;
+}
+.form-container{
+    display:flex;
+    justify-content: center;opacity:0;
+    z-index:0;
+    transition:opacity 1.5s ease;
+}
+.work-item {
+    display:flex;
+    justify-content: center;
+    margin-bottom:200px;
+}
+
+}
